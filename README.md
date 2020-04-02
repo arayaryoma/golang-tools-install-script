@@ -17,8 +17,7 @@ Download and run with `wget` or `curl`:
 
 ```shell
 # Linux typically has wget installed
-wget -q -O - https://raw.githubusercontent.com/
-/golang-tools-install-script/master/goinstall.sh | bash
+wget -q -O - https://raw.githubusercontent.com/arayaryoma/golang-tools-install-script/master/goinstall.sh | bash
 
 # macOS typically has curl installed
 curl https://raw.githubusercontent.com/arayaryoma/golang-tools-install-script/master/goinstall.sh | bash
