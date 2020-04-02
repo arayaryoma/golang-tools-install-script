@@ -1,5 +1,3 @@
-# golang-tools-install-script [![Build Status](https://travis-ci.org/canha/golang-tools-install-script.svg?branch=master)](https://travis-ci.org/canha/golang-tools-install-script)
-
 Bash script to automate installation and removal of single user Go language tools.
 
 Feel free to change the variables on the beginning to match whatever version of Go you need.
@@ -19,10 +17,11 @@ Download and run with `wget` or `curl`:
 
 ```shell
 # Linux typically has wget installed
-wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
+wget -q -O - https://raw.githubusercontent.com/
+/golang-tools-install-script/master/goinstall.sh | bash
 
 # macOS typically has curl installed
-curl https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
+curl https://raw.githubusercontent.com/arayaryoma/golang-tools-install-script/master/goinstall.sh | bash
 ```
 
 ## :package: Version
@@ -32,11 +31,11 @@ Pass the `--version` option into the script including the version that you wish 
 ##### Example:
 
 ```shell
-wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh \
+wget -q -O - https://raw.githubusercontent.com/arayaryoma/golang-tools-install-script/master/goinstall.sh \
 | bash -s -- --version 1.13.2
 
 # or...
-curl https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh \
+curl https://raw.githubusercontent.com/arayaryoma/golang-tools-install-script/master/goinstall.sh \
 | bash -s -- --version 1.13.2
 ```
 
@@ -45,11 +44,11 @@ curl https://raw.githubusercontent.com/canha/golang-tools-install-script/master/
 Pass the `--remove` option into the script:
 
 ```shell
-wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh \
+wget -q -O - https://raw.githubusercontent.com/arayaryoma/golang-tools-install-script/master/goinstall.sh \
 | bash -s -- --remove
 
 # or...
-curl https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh \
+curl https://raw.githubusercontent.com/arayaryoma/golang-tools-install-script/master/goinstall.sh \
 | bash -s -- --remove
 ```
 
